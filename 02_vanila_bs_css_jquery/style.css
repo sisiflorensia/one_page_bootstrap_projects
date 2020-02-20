@@ -8,7 +8,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Montserrat', 'Comfortaa', Helvetica, sans-serif;
     font-weight: 500;
     letter-spacing: -0.02em;
-} 
+}
 /* --------------------------------------------- */
 
 
@@ -23,7 +23,7 @@ h1, h2, h3, h4, h5, h6 {
 
 header {
     height: 100vh;
-    background: linear-gradient(180deg, rgba(255,255,255,.9) 0%, rgba(220, 239, 239,.7) 100%) ,url('images/banner_food.jpg') no-repeat center center /cover;
+    background: linear-gradient(180deg, rgba(255,255,255,.9) 0%, rgba(220, 239, 239,.7) 100%) ,url(images/banner_food.jpg) no-repeat center center /cover;
 }
 /* ----------------------------------------------------------- */
 
@@ -69,6 +69,20 @@ header {
     animation-delay: 2.8s;
     animation-fill-mode: backwards;
     box-shadow: 1px 3px 5px #BCC0C3;
+}
+
+.btn-warning {
+    /* opacity: 0.9; */
+    transition: all .3s;
+    color: #ffffff;
+}
+
+.btn-warning:hover {
+    /* opacity: 1; */
+    color: #ffffff;
+    background-color: #ffc107;
+    border: #ffc107 1px solid;
+    transform: translateY(-2px);
 }
 /* -------------------------------------------------------------------- */
 
@@ -204,7 +218,7 @@ header {
 
 .gallery-item-active {
     color: #17a2b8;
-    font-weight: 300;  
+    font-weight: 300;
 }
 
 .filter {
@@ -391,6 +405,18 @@ header {
 }
 
 /* ------------------------------------------------------------- */
+
+/* footer */
+
+.socmed {
+    transition: all 0.3s ease;
+}
+
+.socmed:hover {
+    transform: translateY(-2px)
+}
+
+/* ---------------------------------------------------------------------------- */
 
 /* animations */
 @keyframes flyInLeft {
